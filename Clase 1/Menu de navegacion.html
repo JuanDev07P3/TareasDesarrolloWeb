@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Navegación</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        nav {
+            background-color: #333;
+            padding: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        li {
+            margin: 0;
+        }
+        
+        a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            transition: background-color 0.3s ease;
+        }
+        
+        a:hover {
+            background-color: #555;
+        }
+        
+        /* Estilos para las secciones */
+        section {
+            padding: 80px 20px 50px;
+            min-height: 100vh;
+            text-align: center;
+        }
+        
+        #inicio {
+            background-color: #f8f9fa;
+        }
+        
+        #sobre-mi {
+            background-color: #e9ecef;
+        }
+        
+        #contacto {
+            background-color: #dee2e6;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #666;
+        }
+        
+        /* Responsive */
+        @media (max-width: 600px) {
+            ul {
+                flex-direction: column;
+            }
+            
+            a {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <section id="inicio">
+        <h1>¡Bienvenido a mi primer sitio web!</h1>
+        <p>Esta es la sección de inicio. en las siguientes pestañas vera demas información general sobre mi.</p>
+        <p>El menú de navegación que veras en la parte superior te permitira mover fácilmente entre las diferentes secciones.</p>
+    </section>
+    
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Mi nombre es Juan José Pérez, soy estudiante de Administración de sistemas informáticos.</p>
+        <p>Mi mayor pasión son las motos y en mis planes a futuro es tener una moto de mayor cilindraje, también me
+            gusta la programación web y estoy aprendiendo HTML, CSS y JavaScript. en la Universidad Regional sede San Raymundo con el Ing. William González</p>
+        <p>Algunos de mis hobbies importantes son los videojuegos y reparar electrónicos.</p>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Abajo te dejo mis datos de contacto y me encuentras:</p>
+        <p>Email: juanantonio778@gmail.com</p>
+        <p>Teléfono: 3090-1549</p>
+        <p>Redes sociales: youtube "pgbiker77garcia"</p>
+    </section>
+</body>
+</html>
