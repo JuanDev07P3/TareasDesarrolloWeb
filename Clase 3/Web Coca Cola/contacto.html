@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coca‑Cola | Contáctanos</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Coca‑Cola</a>
+    <nav class="main-nav" aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="productos.html">Productos</a>
+      <a href="noticias.html">Noticias</a>
+      <a href="contacto.html">Contáctanos</a>
+      <a href="responsabilidad.html">Responsabilidad Social</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Contáctanos</h1>
+      <form id="contact-form" class="form" novalidate>
+        <div>
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Tu nombre">
+        </div>
+        <div>
+          <label for="correo">Correo</label>
+          <input id="correo" name="correo" type="email" placeholder="tunombre@ejemplo.com">
+        </div>
+        <div>
+          <label for="asunto">Asunto</label>
+          <input id="asunto" name="asunto" type="text" placeholder="Motivo del mensaje">
+        </div>
+        <div>
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+        <button class="btn primary" type="submit">Enviar</button>
+        <div id="form-feedback" class="small"></div>
+      </form>
+
+      <h2 style="margin-top:20px">Ubicación</h2>
+      <div class="map-wrap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0133241516987!2d-90.5537947!3d14.598316599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a11007019d65%3A0xb841f156095f6a2!2sEmbotelladora%20Central%2C%20S.A.!5e0!3m2!1ses-419!2sgt!4v1756013781984!5m2!1ses-419!2sgt" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </main>
+  
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; 2025 The Coca‑Cola Company — Sitio académico para fines de estudio.</p>
+    <p class="small">Proyecto académico. Marca usada con fines educativos.</p>
+  </div>
+</footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

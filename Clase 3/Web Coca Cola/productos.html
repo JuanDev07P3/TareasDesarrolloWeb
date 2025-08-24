@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coca‑Cola | Productos</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Coca‑Cola</a>
+    <nav class="main-nav" aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="productos.html">Productos</a>
+      <a href="noticias.html">Noticias</a>
+      <a href="contacto.html">Contáctanos</a>
+      <a href="responsabilidad.html">Responsabilidad Social</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Nuestros productos</h1>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="bebidas">Bebidas</button>
+        <button class="filter-btn" data-filter="dieteticas">Dietéticas</button>
+        <button class="filter-btn" data-filter="energeticas">Energéticas</button>
+      </div>
+
+      <div class="grid cards">
+        <article class="card" data-category="bebidas">
+          <img src="assets/img/original.jpg" alt="Coca‑Cola Original">
+          <h3>Coca‑Cola Original</h3>
+          <p>La clásica, con su inconfundible sabor.</p>
+          <p><span class="badge">355 ml</span> <strong>Q8.00</strong> (estimado)</p>
+        </article>
+
+        <article class="card" data-category="dieteticas">
+          <img src="assets/img/ligth.jpg" alt="Coca‑Cola Light">
+          <h3>Coca‑Cola Light</h3>
+          <p>Sabor ligero, sin azúcar.</p>
+          <p><span class="badge">355 ml</span> <strong>Q8.50</strong> (estimado)</p>
+        </article>
+
+        <article class="card" data-category="energeticas">
+          <img src="assets/img/energy.jpg" alt="Coca‑Cola Energy">
+          <h3>Coca‑Cola Energy</h3>
+          <p>Energía para tu día con el toque Coca‑Cola.</p>
+          <p><span class="badge">250 ml</span> <strong>Q12.00</strong> (estimado)</p>
+        </article>
+      </div>
+
+      <h2 style="margin-top:24px">Comparativa</h2>
+      <div class="table-wrap">
+        <table aria-describedby="comparativa">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Presentación</th>
+              <th>Azúcar</th>
+              <th>Calorías</th>
+              <th>Precio estimado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Coca‑Cola Original</td>
+              <td>355 ml</td>
+              <td>Sí</td>
+              <td>~140 kcal</td>
+              <td>Q8.00</td>
+            </tr>
+            <tr>
+              <td>Coca‑Cola Light</td>
+              <td>355 ml</td>
+              <td>No</td>
+              <td>~1 kcal</td>
+              <td>Q8.50</td>
+            </tr>
+            <tr>
+              <td>Coca‑Cola Energy</td>
+              <td>250 ml</td>
+              <td>Sí</td>
+              <td>~105 kcal</td>
+              <td>Q12.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">* Valores estimados para fines educativos; no representan datos nutricionales oficiales.</p>
+    </div>
+  </main>
+  
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; 2025 The Coca‑Cola Company — Sitio académico para fines de estudio.</p>
+    <p class="small">Proyecto académico. Marca usada con fines educativos.</p>
+  </div>
+</footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
